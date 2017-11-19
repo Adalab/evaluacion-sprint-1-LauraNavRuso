@@ -1,0 +1,83 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+header {
+  width: 100%;
+	background-color: white;
+  position: fixed;
+  z-index: 1;
+}
+.logo-header {
+	width: 100px;
+	height: auto;
+	float: left;
+	margin: 8px;
+}
+.menu-header {
+	float: right;
+	margin-right: 20px;
+}
+.top-menu {
+	list-style: none;
+}
+.top-menu>li {
+	display: inline-block;
+}
+.top-menu li a {
+	text-decoration: none;
+	display: block;
+	color: #555555;
+	padding: 17px;
+}
+.top-menu li a:hover {
+	color: #3CDBC0;
+	text-decoration: underline;
+}
+body {
+font-family: "Rubik", sans-serif;
+}
+.main-container {
+	width: 100%;
+	position: relative;
+}
+.main-photo {
+	width: 100%;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+.text-over-photo-container {
+	background-color: transparent;
+	color: #555555;
+	font-size: 35px;
+	font-weight: bold;
+	position: absolute;
+	left: 5%;
+	top: 10%;
+}
+footer {
+	background-color: #252525;
+	height: 100px;
+	width: 100%;
+	/*position: fixed;
+	bottom: 0;*/
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+.Adalab-copyright {
+	color: #555555;
+	font-size: 12px;
+	margin-left: 50px;
+}
+.cookies-link a {
+	text-decoration: none;
+	color: #aaaaaa;
+	font-size: 12px;
+	margin-left: 50px;
+}
