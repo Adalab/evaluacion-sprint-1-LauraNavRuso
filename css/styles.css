@@ -103,29 +103,31 @@ footer {
 /*MOBILE-PHONE VERSION_______*/
 @media all and (max-width: 500px){
 
-.logo-header {
+header {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+/*.home-link {
 	display: block;
+}*/
+.logo-header {
+	/*display: block;*/
 	width: 40vw;
 	height: auto;
 	margin: 8px;
 }
-.top-menu>li {
-	display: inline-block;
-}
-.menu-header {
-	display: inline;
-	margin-right: 20px;
-}
 .top-menu li a {
-	display: block;
-	padding: 17px;
+	/*display: block;*/
+	padding: 20px;
+	font-size: 20px;
 }
 .main-container {
-	padding-top: 200px;
+	padding-top: 100px;
 }
 .text-over-photo-container {
-	left: 50%;
-	top: 50%;
+	left: 15%;
+	top: 35%;
 }
 .text-over-photo {
 	font-size: 15px;
