@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+		<title>Contacto</title>
+		<link rel="stylesheet" href="css/styles-form.css">
+		<link href="http://fonts.googleapis.com/css?family=Rubik%3A400%2C700&amp;subset=latin&amp;ver=4.5.11" rel="stylesheet">
+	</head>
+
+	<body>
+		<header> <!--Header with Adalab logo (left) and menu (right)/////-->
+			<a class="home-link" href="index-form.html">
+				<img class="logo-header"  src="img/logo-adalab.png"  alt="logo Adalab">
+			</a>
+			<nav class="menu-header">
+				<ul class="top-menu">
+          <li class="blog-link-list">
+						<a class="blog-link" href="http://adalab.es/noticias/" target="_blank">BLOG</a>
+					</li>
+          <li class="contact-link-list">
+						<a class="contact-page" href="index-form.html" target="_blank">CONTACTO</a>
+					</li>
+        </ul>
+      </nav>
+    </header>
+
+		<main><!--Main body////////////////////////////////-->
+			<section class="intro-paragraph">
+				<p>En Adalab estamos encantados de proporcionarte la información que necesitas. Hemos creado formularios específicos para inscribirte como alumna, para ser voluntario/a y para empresas que quieran acoger a nuestras alumnas. Para otras consultas, completa el siguiente formulario y nos pondremos en contacto contigo. Gracias.
+				</p>
+			</section>
+			<section class="form-section">
+				<form class="form-area" action="index-form.html" method="post">
+					<fieldset class="personal-data">
+						<label for="name-field">Nombre</label>
+						<input id="name-field" type="text" name="name" value="">
+						<label for="surname-field">Apellidos</label>
+						<input id="surname-field" type="text" name="surname" value="">
+						<label for="email-field">Correo electrónico</label>
+						<input id="email-field" type="email" name="email" value="">
+						<label for="tel-field">Teléfono móvil</label>
+						<input id="tel-field" type="tel" name="phone-number" value="">
+						<label for="message-field">Mensaje</label>
+						<input id="message-field" type="text" name="message" value="">
+					</fieldset>
+					<fieldset class="submit-button">
+						<input class="button" type="submit" name="submit" value="Enviar">
+					</fieldset>
+				</form>
+			</section>
+		</main>
+
+		<footer> <!--Footer/////////////////////////////////////////// -->
+			<div class="Adalab-copyright">
+				<p>Adalab &copy; 2017</p>
+			</div>
+			<div class="cookies-link">
+				<a href="http://adalab.es/politica-de-cookies/" target="_blank">política de cookies
+			</div>
+		</footer>
+	</body>
+</html>
